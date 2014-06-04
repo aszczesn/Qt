@@ -1,0 +1,8 @@
+Qt5的qapplication在QtWidgets模塊裡，和Qt4不一樣，Qt4的qapplication在QtGui模塊裡。
+
+故而只需在.pro文件中加入：
+
+QT += core gui
+greaterThan(QT_MAJOR_VERSION, 4 ): QT += widgets
+
+這兩行即可。

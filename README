@@ -1,0 +1,8 @@
+下載 qt-linux-opensource-5.1.1-x86_64-offline.run
+
+./qt-linux-opensource-5.1.1-x86_64-offline.run  // 安裝
+
+// ~/.bashrc
+PATH=$PATH:$HOME/Qt5.1.1/5.1.1/gcc_64/bin/
+
+export PATH=/home/jason-yao/Qt/5.3/gcc_64/bin:$PATH
