@@ -3,4 +3,4 @@ Qt5的qapplication在QtWidgets模塊裡，和Qt4不一樣，Qt4的qapplication�
 故而只需在.pro文件中加入：
 QT += core gui widgets
 
-這兩行即可。
+這一行即可。
